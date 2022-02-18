@@ -2,7 +2,7 @@ defmodule PL2303Rpi3.MixProject do
   use Mix.Project
 
   @github_organization "gazzer82"
-  @app :PL2303_rpi3
+  @app :pl2303_rpi3
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
